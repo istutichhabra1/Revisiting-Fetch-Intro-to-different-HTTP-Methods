@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search & Filter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Product Search & Filter</h1>
+    <!-- Search Bar -->
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <!-- Category Filter -->
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+    </select>
+    <!-- Sorting Dropdown -->
+    <select id="sortFilter">
+        <option value="default">Sort by</option>
+        <option value="lowToHigh">Price: Low to High</option>
+        <option value="highToLow">Price: High to Low</option>
+    </select>
+    <!-- Product Count -->
+    <p id="productCount">Showing 0 products</p>
+    <!-- Product Grid -->
+    <div id="productContainer" class="product-grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
